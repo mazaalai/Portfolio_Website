@@ -12,6 +12,7 @@ header {
     padding: 10px;
     border: #05386B 0.5px solid;
     box-shadow: 5px 10px #05386B;
+    margin-bottom: 20px !important;
 
 }
 
@@ -22,31 +23,74 @@ main {
     border: #05386B 0.5px solid;
     box-shadow: 5px 10px #05386B;
 }
-h1{
+
+h1 {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
 }
+
 img {
     float: left;
     border-bottom: #05386B solid;
-    border-right:   #05386B 2px solid;
+    border-right: #05386B 2px solid;
 }
 
-.link:link {
-    color: #18493f;
+form {
+    margin: 0 auto;
+    width: 600px;
 }
 
-.link:visited {
-    color: darkblue;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.link:hover {
-    color: #EDF5E1;
+form li+li {
+    margin-top: 1em;
 }
 
-.link:active {
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #18493f;
+}
+
+textarea {
+    vertical-align: top;
+    height: 10em !important;
+}
+
+button{
+    display: inline-block;
+    background-color:#befcda !important ;
+    text-align: left;
+    margin-top: .7em !important;
+    margin-bottom: 1.5em !important;
+}
+
+fieldset{
+    border: 1px solid #05386B !important;
     color: #05386B;
 }
+legend{
+    color: #05386B !important;
+}
+
+
 
 footer {
     text-align: left;
@@ -55,4 +99,5 @@ footer {
     padding: 10px;
     border: #05386B 0.5px solid;
     box-shadow: 5px 10px #05386B;
+    margin-top: 20px !important;
 }

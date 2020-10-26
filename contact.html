@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl" data-lt-installed="true">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="https://taivan.be/favicon.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/awsm.min.css">
+    <link rel="stylesheet" href="./style/awsm_theme_pearl-lusta.min.css">
+    <title>Taivan Enkhbayar</title>
+</head>
+
+<body style=" background-blend-mode: darken;margin:0px;padding:40px">
+    <header>
+        <h1>Taivan Enkhbayar</h1>
+
+        <nav id="navigation">
+            <ul>
+                <li>Contact</li>
+                <li><a class="link" href="http://taivan.be/">Home</a></li>
+                <li><a class="link" href="http://taivan.be/cvv.html">CV</a></li>
+                <li><a class="link" href="http://taivan.be/projecten.html">Projecten</a></li>
+                <li><a class="link" class="active" href="http://taivan.be/contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+
+
+            <form action="post-demo.php" method="post">
+                <fieldset>
+                    <legend>Contact Formulier</legend>
+                    <ul>
+                        <li>
+                            <label for="firstName">Voornaam:</label>
+                            <input type="text" id="firstName" name="Voornaam">
+                        </li>
+                        <li>
+                            <label for="lastName">Familienaam</label>
+                            <input type="text" id="lastName" name="Familienaam" />
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="email" name="E-email">
+                        </li>
+                        <label for="questionType">Soort vraag</label>
+                        <select name="Type-vraag" id="questionType">
+                            <option value="algemeen">Algemene vraag</option>
+                            <option value="offerte">Offerte aanvragen</option>
+                            <option value="andere">Andere vraag</option>
+                        </select>
+                        <li>
+                            <label for="msg">Vraag:</label>
+                            <textarea name="Vraag" id="question" cols="30" rows="10"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit" value="Verstuur">Verstuur</button>
+            </form>
+
+
+        </div>
+    </main>
+    <footer>
+        <p style="color: darkslategrey;">Gemaakt door: <a class="link"
+                href="https://www.linkedin.com/in/taivan-e-18aab492/">Taivan Enkhbayar</a></p>
+        <p><a class="link"
+                href="https://www.thomasmore.be/opleidingen/graduaat/programmeren-dag-avondonderwijs/programmeren-dagonderwijs/antwerpen-0">Thomas
+                More Antwerpen: Programmeren</a></p>
+    </footer>
+
+</body>
+
+</html>
